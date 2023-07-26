@@ -20,6 +20,18 @@ class App extends Component {
       boxColors: {},
     };
 
+    // primu 0 sau 1 inseama: 0=orizontala  ; 1 verticala
+    // lineCoordinates = {
+    //   '0,0,0': 1,    // 1= rosu
+    //   '1,0,0': -1,     // -1=albastru
+    //   '0,1,0': 0,     
+    //   '1,1,0': 0,
+    // };
+
+
+
+
+
     // Initializează coordonatele liniilor pentru fiecare casetă cu 0
     for (let i = 0; i < 2; i++) {
       for (let j = 0; j < state.boardSize + 1; j++) {
@@ -133,6 +145,16 @@ class App extends Component {
     var checker3 = Math.abs(this.state.lineCoordinates['1,' + k + ',' + j]);
     var checker4 = Math.abs(((parseFloat(k) + 1)) > this.state.boardSize ? 0 : this.state.lineCoordinates['1,' + (parseFloat(k) + 1) + ',' + j]);
     return checker1 + checker2 + checker3 + checker4;
+
+
+   // checker1 reprezintă starea liniei orizontale de sus: poate fi 1, -1 sau 0.
+   // checker2 reprezintă starea liniei orizontale de jos: poate fi 1, -1 sau 0.
+   //  checker3 reprezintă starea liniei verticale din stânga: poate fi 1, -1 sau 0.
+   //  checker4 reprezintă starea liniei verticale din dreapta: poate fi 1, -1 sau 0.
+
+   //checkerX=1  => linia este rosie
+   //checkerX=-1  => linia este albastra
+   // checkerX=0   => linia nu a fost desenata
   }
 
   // Verifică dacă jocul s-a încheiat
