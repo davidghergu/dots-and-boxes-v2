@@ -1,3 +1,75 @@
+Documentatie Dots&Boxes 
+
+ 
+
+  
+
+Nume proiect: Dots & Boxes Game 
+
+  
+
+Scopul proiectului: 
+
+Proiectul "Dots & Boxes Game" este o aplicație web interactivă care implementează jocul clasic "Dots & Boxes" (Puncte și Casete). Scopul principal al aplicației este de a oferi utilizatorilor posibilitatea de a juca acest joc popular împreună cu o alta persoana. Miscarile fiind alternative. 
+
+  
+
+Descriere: 
+
+"Dots & Boxes" este un joc de strategie pentru doi jucători, care se joacă pe o tablă formată din puncte conectate de linii orizontale și verticale. Scopul jocului este să tragi linii și să închizi cât mai multe pătrate. Fiecare pătrat închis de un jucător îi aduce un punct, iar câștigătorul este cel care închide cel mai mare număr de pătrate la finalul jocului. 
+
+  
+
+Tehnologii utilizate: 
+
+Proiectul este construit folosind tehnologii web moderne, inclusiv: 
+
+- React: O bibliotecă JavaScript pentru construirea interfețelor utilizator. 
+
+- HTML și CSS: Pentru structura și stilizarea paginilor web. 
+
+- npm: Un sistem de gestionare a pachetelor pentru Node.js, utilizat pentru instalarea și gestionarea dependențelor proiectului. 
+
+  
+
+Funcționalități cheie: 
+
+- Inițializarea jocului cu o tablă de dimensiuni 5x5. 
+
+- Interfață interactivă pentru tragerea liniilor pe tablă. 
+
+- Contorizarea punctelor pentru fiecare jucător și determinarea câștigătorului la sfârșitul jocului. 
+
+- Opțiunea de a reseta jocul pentru a începe o nouă rundă. 
+
+  
+
+ 
+
+Instrucțiuni de instalare: 
+
+Pentru a rula aplicația pe propriul calculator, urmați următorii pași: 
+
+1. Asigurați-vă că aveți Node.js instalat pe computer. 
+
+2. Descărcați sau clonați proiectul din repository-ul GitHub. 
+
+3. În linia de comandă, navigați la directorul proiectului. 
+
+4. Executați comanda `npm install` pentru a instala dependențele proiectului. 
+
+5. După finalizarea instalării, rulați comanda `npm start` pentru a porni serverul de dezvoltare. 
+
+6. Accesați aplicația într-un browser web la adresa `http://localhost:3000`. 
+
+  
+
+ 
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
