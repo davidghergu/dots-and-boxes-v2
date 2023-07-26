@@ -1,0 +1,37 @@
+.board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+    grid-gap: 5px;
+    margin-top: 20px;
+  }
+  
+  .line {
+    width: 100px;
+    height: 5px;
+    background-color: #ccc;
+    cursor: pointer;
+  }
+  
+  .line.clicked {
+    background-color: #333;
+  }
+  
+  .line.vertical {
+    transform: rotate(90deg);
+  }
+  
+  .box {
+    width: 100px;
+    height: 100px;
+    background-color: #eee;
+  }
+  
+  .box.player1 {
+    background-color: #ff9999;
+  }
+  
+  .box.player2 {
+    background-color: #99ccff;
+  }
+  
